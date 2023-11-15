@@ -4,16 +4,22 @@
     <title>My Todo App</title>
   </head>
   <body>
-    <button>Press me</button>
+    <input id="text-title" type="text"/>
+    <button onclick="addTodo()">Add Todo</button>
     <script>
       let todos = ['Get groceries', 'Wash car', 'Make dinner'];
-      todos.push('another todo');
 
       todos.forEach(function (todoTitle) {
         let element = document.createElement('div');
         element.innerText = todoTitle;
         document.body.appendChild(element);
       });
+
+      function addTodo(){
+        let textbox = document.getElementById('text-title');
+        let title = textbox.value;
+        todos.push(title);
+      }
     </script>
   </body>
 </html>
