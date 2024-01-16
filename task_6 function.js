@@ -1,22 +1,22 @@
 
-// document.title = 'Some other title'
+document.title = 'Some other title'
 
-// let btn = document.createElement('button');
-// btn.innerText = 'Click Me';
-// document.body.appendChild(btn);
+let btn = document.createElement('button');
+btn.innerText = 'Click Me';
+document.body.appendChild(btn);
 
-// let todo1 = 'Get Groceries';
-// let todo2 = 'Wash Car';
-// let todo3 = 'Make Dinner';
+let todo1 = 'Get Groceries';
+let todo2 = 'Wash Car';
+let todo3 = 'Make Dinner';
 
-// function addTodo (todoTitle){
-//   let elem = document.createElement('div');
-//   elem.innerText = todoTitle;
-//   document.body.appendChild(elem);
-// }
-// addTodo(todo1);
-// addTodo(todo2);
-// addTodo(todo3);
+function addTodo (todoTitle){
+  let elem = document.createElement('div');
+  elem.innerText = todoTitle;
+  document.body.appendChild(elem);
+}
+addTodo(todo1);
+addTodo(todo2);
+addTodo(todo3);
 
 // Example:
 
